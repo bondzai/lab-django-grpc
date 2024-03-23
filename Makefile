@@ -8,6 +8,7 @@ create-env:
 
 init:
 	echo "Initializing the project"
+	pyenv local 3.9.16
 	source env/bin/activate
 
 install:
